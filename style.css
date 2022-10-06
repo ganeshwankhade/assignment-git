@@ -1,0 +1,95 @@
+.Body{
+    background-color: black;
+    /* border-radius: 10px; */
+
+}
+body{
+    background-image: url("pramod-tiwari-yev460jXWeE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 700px;
+
+   
+}
+.hello{
+    list-style-type:none;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    /* border: 2px solid black; */
+   
+}
+
+.k{
+    padding: 0px 30px;
+    font-size: 19px;
+    color: white;
+
+
+}
+.k:hover{
+    
+    color: red;
+   
+}
+.c{
+    text-align: center;
+
+}
+.b{
+    text-align: center;
+}
+.b:hover{
+    color: red;
+}
+
+.typing{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-effect{
+    width: 24ch;
+    animation: typing 2s steps(22), effect 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3rem;
+}
+.typing-effect:hover{
+    width: 24ch;
+    animation: typing 2s steps(22), effect 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3rem;
+    color:red;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes effect{
+    50%{
+        border-color: transparent;
+    }
+}
+
+@keyframes load{
+    0%{
+        stroke-dasharray: 360;
+    }
+    50%{
+        stroke-dasharray: 1;
+    }
+    100%{
+        stroke-dasharray: 360;
+    }
+}
